@@ -33,6 +33,8 @@ public class CollotonReedSort implements Sorter {
 
   /**
    * ChatGPT created this sorting algorithm based on bubble sort.
+   * I only had to change the line comparing the two values to use the Comparator,
+   * and change the function to handle generic types.
    */
   @Override
   public <T> void sort(T[] values, Comparator<? super T> order) {
